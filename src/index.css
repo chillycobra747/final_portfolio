@@ -26,9 +26,27 @@
        url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.svg#DancingScript') format('svg'); /* Legacy iOS */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App-header {
+  height: 100%;
+  opacity: 0.6;
+  color: black;
+  background-image: url("./images/flowers.webp");
+  background-repeat: no-repeat;
+  text-align: right;
+  padding: 4rem;
+  background-size:50%;
+}
+* { padding: 0; margin: 0; }
+
+html, body {
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+body > * {
+  flex-shrink: 0;
 }
 
 h1 {
@@ -45,14 +63,9 @@ h3{
 .img {
   opacity: 100%;
 }
-#container {
-  text-align: center;
-}
+
 #shelter-div {
-  height: 500px;
   background-color: rgba(212, 142, 208, 0.459);
-  margin-left: -7%;
-  margin-right:-7%;
 }
 #shelter {
   background-image: url("./images/shelter.png");
@@ -64,10 +77,7 @@ h3{
 }
 
 #storyboard-div {
-  height: 500px;
   background-color: rgba(0, 0, 0, 0.089);
-  margin-left: -7%;
-  margin-right:-7%;
 
 }
 #storyboards {
@@ -78,11 +88,7 @@ h3{
 }
 
 #charity-div {
-  height: 500px;
   background-color: rgba(212, 142, 208, 0.459);
-  margin-left: -7%;
-  margin-right:-7%;
-
 }
 #charity {
   background-image: url("./images/charity.png");
@@ -92,11 +98,7 @@ h3{
 }
 
 #yhangry-div {
-  height: 500px;
   background-color: rgba(0, 0, 0, 0.089);
-  margin-left: -7%;
-  margin-right:-7%;
-
 }
 #yhangry {
   background-image: url("./images/yhangry.png");
