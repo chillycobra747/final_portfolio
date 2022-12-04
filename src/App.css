@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,11 +9,10 @@
 }
 
 .App-header {
-  height: 30rem;
-  filter: grayscale(100%);
+  height: 100%;
   opacity: 0.6;
   color: black;
-  background-image: url("./images/headshot.png");
+  background-image: url("./images/flowers.webp");
   background-repeat: no-repeat;
   text-align: right;
   padding: 4rem;

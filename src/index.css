@@ -12,32 +12,55 @@
        url('./fonts/playfair-display-v30-latin/playfair-display-v30-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
 }
 
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.svg#DancingScript') format('svg'); /* Legacy iOS */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-h1,h2,h3,h4,p{
+h1 {
+  font-family: 'Dancing Script';
+}
+h2,h4,p{
   font-family: 'Playfair Display';
+}
+h3{
+  font-family: 'Playfair Display';
+  font-size: 20px;
 }
 
 .img {
   opacity: 100%;
-
 }
-
+#container {
+  text-align: center;
+}
 #shelter-div {
   height: 500px;
   background-color: rgba(212, 142, 208, 0.459);
   margin-left: -7%;
   margin-right:-7%;
-
 }
 #shelter {
   background-image: url("./images/shelter.png");
-  background-size:90%;
   background-repeat: no-repeat;
-  background-position: 4rem;
+  text-align: right;
+  padding: 4rem;
+  background-size:100%;
+  background-position: 1rem;
 }
 
 #storyboard-div {
