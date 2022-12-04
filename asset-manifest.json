@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.f1b457dd.css",
-    "main.js": "/final_portfolio/static/js/main.0d278ddd.js",
+    "main.css": "/final_portfolio/static/css/main.bacf9c7c.css",
+    "main.js": "/final_portfolio/static/js/main.0f7f1473.js",
     "static/media/shelter.png": "/final_portfolio/static/media/shelter.1d96974f54eb5812c776.png",
     "static/media/charity.png": "/final_portfolio/static/media/charity.fc01d96f7f3e205b871a.png",
     "static/media/storyboards.png": "/final_portfolio/static/media/storyboards.db314858f746e6830e81.png",
     "static/media/yhangry.png": "/final_portfolio/static/media/yhangry.3873c42fda85c7093524.png",
-    "static/media/headshot.png": "/final_portfolio/static/media/headshot.b20aba54b38b0794de2b.png",
+    "static/media/flowers.webp": "/final_portfolio/static/media/flowers.0f3bd4782dfabeff8702.webp",
+    "static/media/dancing-script-v24-latin-regular.svg": "/final_portfolio/static/media/dancing-script-v24-latin-regular.e2e0cda3d48e39a358b9.svg",
     "static/media/playfair-display-v30-latin-regular.svg": "/final_portfolio/static/media/playfair-display-v30-latin-regular.ef0e9fa7779ffbb97987.svg",
+    "static/media/dancing-script-v24-latin-regular.ttf": "/final_portfolio/static/media/dancing-script-v24-latin-regular.8a0403d2947122a27b5c.ttf",
     "static/media/playfair-display-v30-latin-regular.ttf": "/final_portfolio/static/media/playfair-display-v30-latin-regular.27ac5dbc3eac14b4458f.ttf",
+    "static/media/dancing-script-v24-latin-regular.woff": "/final_portfolio/static/media/dancing-script-v24-latin-regular.1ffaff7a3d035c047e08.woff",
+    "static/media/dancing-script-v24-latin-regular.eot": "/final_portfolio/static/media/dancing-script-v24-latin-regular.bf72e396040dca7eb807.eot",
     "static/media/playfair-display-v30-latin-regular.woff": "/final_portfolio/static/media/playfair-display-v30-latin-regular.4959390b787fc6727957.woff",
+    "static/media/dancing-script-v24-latin-regular.woff2": "/final_portfolio/static/media/dancing-script-v24-latin-regular.26d3e7a5932e68dd7531.woff2",
     "static/media/playfair-display-v30-latin-regular.eot": "/final_portfolio/static/media/playfair-display-v30-latin-regular.8dacfa0220d588b8f733.eot",
     "static/media/playfair-display-v30-latin-regular.woff2": "/final_portfolio/static/media/playfair-display-v30-latin-regular.0240e9884f59757ace9e.woff2",
     "index.html": "/final_portfolio/index.html",
-    "main.f1b457dd.css.map": "/final_portfolio/static/css/main.f1b457dd.css.map",
-    "main.0d278ddd.js.map": "/final_portfolio/static/js/main.0d278ddd.js.map"
+    "main.bacf9c7c.css.map": "/final_portfolio/static/css/main.bacf9c7c.css.map",
+    "main.0f7f1473.js.map": "/final_portfolio/static/js/main.0f7f1473.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1b457dd.css",
-    "static/js/main.0d278ddd.js"
+    "static/css/main.bacf9c7c.css",
+    "static/js/main.0f7f1473.js"
   ]
 }
