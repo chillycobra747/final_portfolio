@@ -7,11 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header">
           <h1>Final Portfolio</h1>
-          <h2>Bridget Griswold</h2>
+          <h3>ChillyCobra747</h3>
           </header>
       <div class="container">
         <div class="row" id="shelter-div">
-          <div class="col-5" id="shelter"></div>
+          <div class="col-5">
+            <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="http://localhost:3000/static/media/shelter.1d96974f54eb5812c776.png"/></a>  
+            <h5>click on image to visit site</h5>      
+          </div>
           <div class="col-7">
             <div>
               <h1>Animal Shelter Project</h1>
@@ -42,7 +45,7 @@ function App() {
         <div class="row" id="storyboard-div">
           <div class="col-6">
           <h1>Storyboarding Project</h1>
-              <h3><h2>Context: </h2>In order to learn more about User Interfaces / User Experience class, I was 
+              <h3><h2>Context </h2>In order to learn more about User Interfaces / User Experience class, I was 
               tasked to chose and observe user interactions with any physical interface in real life. Through
               these observations, I should note (and then draw) how the user interacted with the interface. This 
               site records my observations, user interview questions, and findings. </h3>
@@ -61,15 +64,21 @@ function App() {
                   why I was staring at them so much. </li>
               </h3>
           </div>
-          <div class="col-6" id="storyboards"></div>
+          <div class="col-6">
+            <a href="https://chillycobra747.github.io/storyboards/"><img class="grow" src="http://localhost:3000/static/media/storyboards.db314858f746e6830e81.png"/></a>  
+            <h5>click on image to visit site</h5>      
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="row" id="charity-div">
-          <div class="col-5" id="charity"></div>
+          <div class="col-5" id="charity">
+          <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="	http://localhost:3000/static/media/charity.fc01d96f7f3e205b871a.png"/></a>  
+            <h5>click on image to visit site</h5>  
+          </div>
           <div class="col-7">
             <h1>Website Redesign</h1>
-            <h3><h2>Context: </h2>This website was made as an iteration of a poorly made website I 
+            <h3><h2>Context </h2>This website was made as an iteration of a poorly made website I 
             have previously encountered, which I believed needs improvements. I used a chairty website 
             I had used in high school, and remembered how poor the user experience was. Thus, I built 
             this project to improve upon the currently published Assistance Leauge website. </h3>
@@ -94,7 +103,7 @@ function App() {
         <div class="row" id="yhangry-div">
           <div class="col-6">
            <h1>Startup Website on Figma</h1>
-            <h3><h2>Context: </h2>Along with 3 teammates, we chose a startup concept we were excited 
+            <h3><h2>Context </h2>Along with 3 teammates, we chose a startup concept we were excited 
             about, which was yhangry, a British private-chef service. Before viewing the yhangry site, 
             only with knowledge about what the company does, we challenged outselves to create an 
             interactive Figma which could be used as the website of our chosen startup.  </h3>
@@ -114,7 +123,10 @@ function App() {
                   great features and functionality components I had not known about before this project. </li>
               </h3>
           </div>
-          <div class="col-6" id="yhangry"></div>
+          <div class="col-6" id="yhangry">
+          <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><img class="grow" src="http://localhost:3000/static/media/yhangry.3873c42fda85c7093524.png"/></a>  
+            <h5>click on image to visit site</h5>  
+          </div>
         </div>
       </div>
     </div>

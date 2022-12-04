@@ -39,6 +39,16 @@
 
 h1 {
   font-family: 'Dancing Script';
+  font-size: 70px;
+}
+h2 {
+  font-family: 'Playfair Display';
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: table;
+  box-shadow: 0 0 2px 1px #3c3d3f;
+  text-align: center;
 }
 h2,h4,p{
   font-family: 'Playfair Display';
@@ -48,49 +58,42 @@ h3{
   font-size: 20px;
 }
 
-.img {
+img {
   opacity: 100%;
+  width: 100%;
+  align-self: center;
+  border-radius: 10px;
+}
+
+img:hover {
+  border: 5px solid #555;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.grow img{
+  transition: 1s ease;
+}
+
+.container {
+  box-shadow: inset 0 0 5px 2px #282a2d;
 }
 
 #shelter-div {
   background-color: rgba(212, 142, 208, 0.459);
-}
-#shelter {
-  background-image: url("./images/shelter.png");
-  background-repeat: no-repeat;
-  text-align: right;
-  padding: 4rem;
-  background-size:100%;
-  background-position: 1rem;
+  text-align: left;
 }
 
 #storyboard-div {
   background-color: rgba(0, 0, 0, 0.089);
-
-}
-#storyboards {
-  background-image: url("./images/storyboards.png");
-  background-size:90%;
-  background-repeat: no-repeat;
-  background-position: 4rem;
 }
 
 #charity-div {
   background-color: rgba(212, 142, 208, 0.459);
 }
-#charity {
-  background-image: url("./images/charity.png");
-  background-size:90%;
-  background-repeat: no-repeat;
-  background-position: 4rem;
-}
 
 #yhangry-div {
   background-color: rgba(0, 0, 0, 0.089);
-}
-#yhangry {
-  background-image: url("./images/yhangry.png");
-  background-size:90%;
-  background-repeat: no-repeat;
-  background-position: 4rem;
 }
