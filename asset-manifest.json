@@ -1,11 +1,7 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.fcd14930.css",
-    "main.js": "/final_portfolio/static/js/main.0de7e2c1.js",
-    "static/media/shelter.png": "/final_portfolio/static/media/shelter.1d96974f54eb5812c776.png",
-    "static/media/charity.png": "/final_portfolio/static/media/charity.fc01d96f7f3e205b871a.png",
-    "static/media/storyboards.png": "/final_portfolio/static/media/storyboards.db314858f746e6830e81.png",
-    "static/media/yhangry.png": "/final_portfolio/static/media/yhangry.3873c42fda85c7093524.png",
+    "main.css": "/final_portfolio/static/css/main.375c8605.css",
+    "main.js": "/final_portfolio/static/js/main.ebb90976.js",
     "static/media/flowers.webp": "/final_portfolio/static/media/flowers.0f3bd4782dfabeff8702.webp",
     "static/media/dancing-script-v24-latin-regular.svg": "/final_portfolio/static/media/dancing-script-v24-latin-regular.e2e0cda3d48e39a358b9.svg",
     "static/media/playfair-display-v30-latin-regular.svg": "/final_portfolio/static/media/playfair-display-v30-latin-regular.ef0e9fa7779ffbb97987.svg",
@@ -18,11 +14,11 @@
     "static/media/playfair-display-v30-latin-regular.eot": "/final_portfolio/static/media/playfair-display-v30-latin-regular.8dacfa0220d588b8f733.eot",
     "static/media/playfair-display-v30-latin-regular.woff2": "/final_portfolio/static/media/playfair-display-v30-latin-regular.0240e9884f59757ace9e.woff2",
     "index.html": "/final_portfolio/index.html",
-    "main.fcd14930.css.map": "/final_portfolio/static/css/main.fcd14930.css.map",
-    "main.0de7e2c1.js.map": "/final_portfolio/static/js/main.0de7e2c1.js.map"
+    "main.375c8605.css.map": "/final_portfolio/static/css/main.375c8605.css.map",
+    "main.ebb90976.js.map": "/final_portfolio/static/js/main.ebb90976.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcd14930.css",
-    "static/js/main.0de7e2c1.js"
+    "static/css/main.375c8605.css",
+    "static/js/main.ebb90976.js"
   ]
 }
