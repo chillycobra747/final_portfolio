@@ -26,6 +26,20 @@
        url('./fonts/dancing-script-v24-latin/dancing-script-v24-latin-regular.svg#DancingScript') format('svg'); /* Legacy iOS */
 }
 
+/* klee-one-regular - latin */
+@font-face {
+  font-family: 'Klee One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/klee-one-v7-latin/klee-one-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/klee-one-v7-latin/klee-one-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/klee-one-v7-latin/klee-one-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/klee-one-v7-latin/klee-one-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/klee-one-v7-latin/klee-one-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/klee-one-v7-latin/klee-one-v7-latin-regular.svg#KleeOne') format('svg'); /* Legacy iOS */
+}
+
 .App-header {
   height: 100%;
   opacity: 0.6;
@@ -42,7 +56,7 @@ h1 {
   font-size: 70px;
 }
 h2 {
-  font-family: 'Playfair Display';
+  font-family: 'Klee One';
   font-size: 30px;
   background-color: white;
   border-radius: 10px;
@@ -51,11 +65,12 @@ h2 {
   text-align: center;
 }
 h2,h4,p{
-  font-family: 'Playfair Display';
+  font-family: 'Klee One';
 }
 h3{
-  font-family: 'Playfair Display';
+  font-family: 'Klee One';
   font-size: 20px;
+  line-height: 1.5;
 }
 
 img {
@@ -63,10 +78,11 @@ img {
   width: 100%;
   align-self: center;
   border-radius: 10px;
+  box-shadow: 0 0 3px 1px #282a2d;
 }
 
 img:hover {
-  border: 5px solid #555;
+  border: 3px solid rgb(0, 0, 0);
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
@@ -82,7 +98,7 @@ img:hover {
 }
 
 #shelter-div {
-  background-color: rgba(212, 142, 208, 0.459);
+  background-color:#ffb6c1b6;	
   text-align: left;
 }
 
@@ -91,7 +107,7 @@ img:hover {
 }
 
 #charity-div {
-  background-color: rgba(212, 142, 208, 0.459);
+  background-color: #ffb6c1b6;	
 }
 
 #yhangry-div {

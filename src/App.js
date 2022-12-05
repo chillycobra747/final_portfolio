@@ -1,8 +1,8 @@
 import './bootstrap.css';
 import './index.css'
-import dropdown from './components/dropdown';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -13,14 +13,18 @@ function App() {
         <div class="row" id="shelter-div">
           <div class="col-5">
             <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="http://localhost:3000/static/media/shelter.1d96974f54eb5812c776.png"/></a>  
-            <h5>click on image to visit site</h5>      
+            <h5>hover and click to visit site</h5>      
           </div>
           <div class="col-7">
             <div>
               <h1>Animal Shelter Project</h1>
               <h3><h2>Context </h2>To practice the functionality of JavaScript, I made this project, 
               challenging myself to include components, working buttons, an adjustable cart, filters,
-              and more! The site could be of any theme, but as I love dogs, I chose to create an animal shelter.</h3>
+              and more! The site could be of any theme, but as I love dogs, I chose to create an animal shelter. 
+              <li>Purpose: This project introduced the concepts of components and functions in JavaScript. 
+                The website itself was built to encourage adopting dogs from shelters. 
+              </li>
+              </h3>
               <h3><h2>Process </h2>
                 <li>I began the creation of my shelter starting with the data, addings 12 different dog 
                 profiles to a data file. </li>
@@ -36,8 +40,6 @@ function App() {
                    selters, as many dogs are left without homes. </li>
               </h3>
             </div>
-            
-            <dropdown></dropdown>
           </div>
         </div>
       </div>
@@ -48,7 +50,11 @@ function App() {
               <h3><h2>Context </h2>In order to learn more about User Interfaces / User Experience class, I was 
               tasked to chose and observe user interactions with any physical interface in real life. Through
               these observations, I should note (and then draw) how the user interacted with the interface. This 
-              site records my observations, user interview questions, and findings. </h3>
+              site records my observations, user interview questions, and findings. 
+              <li>Purpose: To better learn how to step into a users shoes, improving my user design abilities.
+                This taught me how to observe users interacting with an interface, interview effectively, 
+                create and explain user personas, and build storyboards.
+              </li> </h3>
               <h3><h2>Process </h2>
                 <li>This idea started with observations, in watching individuals interact with the Ceremony Tea 
                   'Toast' checkout device. </li>
@@ -66,7 +72,7 @@ function App() {
           </div>
           <div class="col-6">
             <a href="https://chillycobra747.github.io/storyboards/"><img class="grow" src="http://localhost:3000/static/media/storyboards.db314858f746e6830e81.png"/></a>  
-            <h5>click on image to visit site</h5>      
+            <h5>hover and click to visit site</h5>      
           </div>
         </div>
       </div>
@@ -74,14 +80,19 @@ function App() {
         <div class="row" id="charity-div">
           <div class="col-5" id="charity">
           <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="	http://localhost:3000/static/media/charity.fc01d96f7f3e205b871a.png"/></a>  
-            <h5>click on image to visit site</h5>  
+            <h5>hover and click to visit site</h5>  
           </div>
           <div class="col-7">
             <h1>Website Redesign</h1>
             <h3><h2>Context </h2>This website was made as an iteration of a poorly made website I 
             have previously encountered, which I believed needs improvements. I used a chairty website 
             I had used in high school, and remembered how poor the user experience was. Thus, I built 
-            this project to improve upon the currently published Assistance Leauge website. </h3>
+            this project to improve upon the currently published Assistance Leauge website. 
+            <li>Purpose: To learn the process of building an entire website. This includes making low
+              fidelity and high fidelity prototypes, choosing website themes and colors. This project 
+              taught me how to identify accessability and user experience issues on websites, and how to fix
+              these issues with my designs and code. 
+            </li></h3>
             <h3><h2>Process </h2>
                 <li>I first studied the content and layout of the site I was going to rebuild. Once I 
                   had a thorough understanding of the website, I could iterate and improve from there. </li>
@@ -106,7 +117,12 @@ function App() {
             <h3><h2>Context </h2>Along with 3 teammates, we chose a startup concept we were excited 
             about, which was yhangry, a British private-chef service. Before viewing the yhangry site, 
             only with knowledge about what the company does, we challenged outselves to create an 
-            interactive Figma which could be used as the website of our chosen startup.  </h3>
+            interactive Figma which could be used as the website of our chosen startup.  
+            <li>Purpose: This project was focused on teamwork! Additionally, we learned more about startups, 
+              and how an entrepreneurial team can build a website based on their startup concept. This 
+              project also sought to teach me how to use figma, especially the interactive elements which 
+              all for prototypes of websites, before they are coded technically. 
+            </li> </h3>
             <h3><h2>Process </h2>
                 <li>In order for this project to be successful, we first needed to understand the purpose 
                   and mission of the company. Thus, we started with thorough research on our chosen startup. </li>
@@ -125,7 +141,7 @@ function App() {
           </div>
           <div class="col-6" id="yhangry">
           <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><img class="grow" src="http://localhost:3000/static/media/yhangry.3873c42fda85c7093524.png"/></a>  
-            <h5>click on image to visit site</h5>  
+            <h5>hover and click to visit site</h5> 
           </div>
         </div>
       </div>
