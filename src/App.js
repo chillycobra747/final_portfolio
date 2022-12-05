@@ -12,12 +12,14 @@ function App() {
       <div class="container">
         <div class="row" id="shelter-div">
           <div class="col-5">
-            <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="http://localhost:3000/static/media/shelter.1d96974f54eb5812c776.png"/></a>  
+          <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="images/shelter.png"/></a>  
+           
             <h5>hover and click to visit site</h5>      
           </div>
           <div class="col-7">
             <div>
               <h1>Animal Shelter Project</h1>
+
               <h3><h2>Context </h2>To practice the functionality of JavaScript, I made this project, 
               challenging myself to include components, working buttons, an adjustable cart, filters,
               and more! The site could be of any theme, but as I love dogs, I chose to create an animal shelter. 
@@ -71,7 +73,7 @@ function App() {
               </h3>
           </div>
           <div class="col-6">
-            <a href="https://chillycobra747.github.io/storyboards/"><img class="grow" src="http://localhost:3000/static/media/storyboards.db314858f746e6830e81.png"/></a>  
+            <a href="https://chillycobra747.github.io/storyboards/"><img class="grow" src="images/storyboards.png"/></a>  
             <h5>hover and click to visit site</h5>      
           </div>
         </div>
@@ -79,7 +81,7 @@ function App() {
       <div class="container">
         <div class="row" id="charity-div">
           <div class="col-5" id="charity">
-          <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="	http://localhost:3000/static/media/charity.fc01d96f7f3e205b871a.png"/></a>  
+          <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="images/charity.png"/></a>  
             <h5>hover and click to visit site</h5>  
           </div>
           <div class="col-7">
@@ -140,7 +142,7 @@ function App() {
               </h3>
           </div>
           <div class="col-6" id="yhangry">
-          <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><img class="grow" src="http://localhost:3000/static/media/yhangry.3873c42fda85c7093524.png"/></a>  
+          <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><img class="grow" src="images/yhangry.png"/></a>  
             <h5>hover and click to visit site</h5> 
           </div>
         </div>

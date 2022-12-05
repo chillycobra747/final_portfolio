@@ -44,7 +44,7 @@
   height: 100%;
   opacity: 0.6;
   color: black;
-  background-image: url("./images/flowers.webp");
+  background-image: url("flowers.webp");
   background-repeat: no-repeat;
   text-align: right;
   padding: 4rem;
@@ -63,6 +63,7 @@ h2 {
   display: table;
   box-shadow: 0 0 2px 1px #3c3d3f;
   text-align: center;
+  padding: 10px 30px 10px 30px;
 }
 h2,h4,p{
   font-family: 'Klee One';
