@@ -1,13 +1,18 @@
-import './bootstrap.css';
-import './index.css'
-import React, { useState } from 'react';
+<!doctype html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-function App() {
+    <link rel="stylesheet" href="./src/bootstrap.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Storyboarding and Personas</title>
+  </head>
+  <body>
 
-  return (
     <div className="App" id="App">
       <header className="App-header">
-      <a href="#App"><h1 color= "black" justify-content="right">Final Portfolio</h1></a>
+      <a href="#App"><h1 color= "black">Final Portfolio</h1></a>
           
           <h3>ChillyCobra747</h3>
           </header>
@@ -28,16 +33,17 @@ function App() {
 
       <div class="container">
         <div class="row" id="shelter-div">
-        <h1>Animal Shelter Project</h1>
           <div class="col-5">
           <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="images/shelter.png"/></a>  
-            <h5>hover and click to visit site</h5>  
-              <a href="../src/shelter.html"><img id="icons" class="grow" src="images/puppy.png"/> </a>      
+           
+            <h5>hover and click to visit site</h5>      
           </div>
 
           <div class="col-7">
             <div>
-            
+            <h1>Animal Shelter Project</h1>
+              <h5> click the puppy to learn more </h5>
+              <a href="shelter.html"><img id="icons" class="grow" src="images/puppy.png"/> </a>  
               <h3><h2>Context </h2>To practice the functionality of JavaScript, I made this project, 
               challenging myself to include components, working buttons, an adjustable cart, filters,
               and more! The site could be of any theme, but as I love dogs, I chose to create an animal shelter. 
@@ -65,10 +71,8 @@ function App() {
       </div>
       <div class="container">
         <div class="row" id="storyboard-div">
-        <h1>Storyboarding Project</h1>
           <div class="col-6">
-          <a href="./storyboard.html"><img id="icons" class="grow" src="images/puppy.png"/> </a>  
-
+          <h1>Storyboarding Project</h1>
               <h3><h2>Context </h2>In order to learn more about User Interfaces / User Experience class, I was 
               tasked to chose and observe user interactions with any physical interface in real life. Through
               these observations, I should note (and then draw) how the user interacted with the interface. This 
@@ -100,12 +104,12 @@ function App() {
       </div>
       <div class="container">
         <div class="row" id="charity-div">
-          <h1>Website Redesign</h1>
           <div class="col-5" id="charity">
           <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="images/charity.png"/></a>  
             <h5>hover and click to visit site</h5>  
           </div>
           <div class="col-7">
+            <h1>Website Redesign</h1>
             <h3><h2>Context </h2>This website was made as an iteration of a poorly made website I 
             have previously encountered, which I believed needs improvements. I used a chairty website 
             I had used in high school, and remembered how poor the user experience was. Thus, I built 
@@ -134,8 +138,8 @@ function App() {
       </div>
       <div class="container">
         <div class="row" id="yhangry-div">
-        <h1>Startup Website on Figma</h1>
           <div class="col-6">
+           <h1>Startup Website on Figma</h1>
             <h3><h2>Context </h2>Along with 3 teammates, we chose a startup concept we were excited 
             about, which was yhangry, a British private-chef service. Before viewing the yhangry site, 
             only with knowledge about what the company does, we challenged outselves to create an 
@@ -168,7 +172,3 @@ function App() {
         </div>
       </div>
     </div>
-  );
-}
-
-export default App;
