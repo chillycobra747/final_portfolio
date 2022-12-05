@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.247da342.css",
-    "main.js": "/final_portfolio/static/js/main.6b5f9c2b.js",
+    "main.css": "/final_portfolio/static/css/main.4a3b68d8.css",
+    "main.js": "/final_portfolio/static/js/main.668a4c5d.js",
     "static/media/flowers.webp": "/final_portfolio/static/media/flowers.0f3bd4782dfabeff8702.webp",
     "static/media/klee-one-v7-latin-regular.ttf": "/final_portfolio/static/media/klee-one-v7-latin-regular.ecccf6b99793a8d3cb4b.ttf",
     "static/media/klee-one-v7-latin-regular.svg": "/final_portfolio/static/media/klee-one-v7-latin-regular.b28da8634a8dafa463c3.svg",
@@ -19,11 +19,11 @@
     "static/media/playfair-display-v30-latin-regular.eot": "/final_portfolio/static/media/playfair-display-v30-latin-regular.8dacfa0220d588b8f733.eot",
     "static/media/playfair-display-v30-latin-regular.woff2": "/final_portfolio/static/media/playfair-display-v30-latin-regular.0240e9884f59757ace9e.woff2",
     "index.html": "/final_portfolio/index.html",
-    "main.247da342.css.map": "/final_portfolio/static/css/main.247da342.css.map",
-    "main.6b5f9c2b.js.map": "/final_portfolio/static/js/main.6b5f9c2b.js.map"
+    "main.4a3b68d8.css.map": "/final_portfolio/static/css/main.4a3b68d8.css.map",
+    "main.668a4c5d.js.map": "/final_portfolio/static/js/main.668a4c5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.247da342.css",
-    "static/js/main.6b5f9c2b.js"
+    "static/css/main.4a3b68d8.css",
+    "static/js/main.668a4c5d.js"
   ]
 }
