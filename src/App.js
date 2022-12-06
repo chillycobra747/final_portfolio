@@ -25,7 +25,7 @@ function App() {
                 <h5>Charity Website Redesign</h5>
                 <img class="nav-img" src="images/charity.png"/></a></li>
               <li class="navbar-item"><a href="#yhangry-div" class="nav-link">
-                <h5>Startup Interactive</h5>
+                <h5>Cooking Startup Website</h5>
                 <img class="nav-img" src="images/yhangry.png"/></a></li>
             </ul>
           </div>
@@ -37,8 +37,8 @@ function App() {
           <div class="row">
            <div class="col-3"> <img id="icons" class="grow" src="images/puppy.png"/> </div>
            <div class="col-9"><h3> <h2>Context </h2>
-              <li>Key Concepts: JavaScript, website development, components, React </li>
-              <li>Purpose: This project introduced the concepts of components and functions in JavaScript. 
+              <li><b>Key Concepts</b>: JavaScript, website development, components, React </li>
+              <li><b>Purpose</b>: This project introduced the concepts of components and functions in JavaScript. 
                 In building this project, I challenged myself to include components, working buttons, an 
                 adjustable cart, filters, and more! The site could be of any theme, but as I love dogs, 
                 I chose to create an animal shelter. I hoped that the theme of this site would encourage others
@@ -58,9 +58,9 @@ function App() {
                   <li>I added a "cart" by which I could add and remove dogs, using react buttons.</li>
                   <li>Finally, I implemented sorting and filtering functionality, using toggle buttons.</li>
                 </ol>
-                <li>Interesting Lesson: Buttons can act as "triggers" in React by changing the current state 
+                <li><b>Interesting Lesson</b>: Buttons can act as "triggers" in React by changing the current state 
                   (useState by React) of a variable to alter an element of your website! </li>
-                <li>Idea from Findings: This site could be expanded to include videos of the available dogs, making users
+                <li><b>Idea from Findings</b>: This site could be expanded to include videos of the available dogs, making users
                   even more excited and hopeful to purchase an in-need shelter dog.  </li>
               </h3></div>
            <div class="col-5"> <img src="images/shelter-cart.png" class="process-img"/> </div>
@@ -71,7 +71,7 @@ function App() {
               <h3>hover and click to visit site</h3>  
             </div>
            <div class="col-5"><h3><h2>Findings & Connection </h2>
-                <li>Personal Relation: I have adopted 2 dogs from shelters, and I care deeply about helping
+                <li><b>Personal Relation</b>: I have adopted 2 dogs from shelters, and I care deeply about helping
                   more animals in shelters find safe homes. I chose to build an animal shelter to highlight the importance of adopting dogs from
                    selters, as many dogs are left without homes. </li>
                 <li>I leared a massive amount about React through by time building this website. This was my first 
@@ -88,8 +88,8 @@ function App() {
         <div class="row">
           <div class="col-3"> <img id="icons" class="grow" src="images/coffee.png"/> </div>
           <div class="col-9"><h3><h2>Context </h2>
-            <li>Key Concepts: user interviews, creating accessable interfaces, user personas, interface sketches  </li>
-            <li>Purpose: To better learn how to step into a users shoes, improving my user design abilities.
+            <li><b>Key Concepts</b>: user interviews, creating accessable interfaces, user personas, interface sketches  </li>
+            <li><b>Purpose</b>: To better learn how to step into a users shoes, improving my user design abilities.
               This taught me how to observe users interacting with an interface, interview effectively, 
               create and explain user personas, and build storyboards. The project introduced important concepts 
               for the start of my User Interfaces / User Experience class at Brown Univeristy. I was 
@@ -110,9 +110,9 @@ function App() {
                 <li>I charted the user personas on my website, practicing how to create detailed character descriptions. </li>
                 <li> To learn about how users felt about the checkout process at Ceremony Tea, I conducted interviews and recorded my findings.</li>
                 </ol>
-                <li>Interesting Lesson: You can learn a lot from observing individuals around you. I spend so much time on my 
+                <li><b>Interesting Lesson</b>: You can learn a lot from observing individuals around you. I spend so much time on my 
                   devices, I forget to pay attention to the people around me. This assignment was a wonderful lesson about context awareness. </li>
-                <li>Idea from Findings: Because of the amount I learned from storyboarding, I should watch users 
+                <li><b>Idea from Findings</b>: Because of the amount I learned from storyboarding, I should watch users 
                   interact with every website I build, making improvements from these observations. </li>
               </h3></div>
            <div class="col-5"> <img src="images/story-drawings.png" class="process-img"/> </div>
@@ -123,7 +123,7 @@ function App() {
               <h5>hover and click to visit site</h5>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
-                  <li>Personal Relation: I regularly visit the coffee/shop which I studied the interface from. It was 
+                  <li><b>Personal Relation</b>: I regularly visit the coffee/shop which I studied the interface from. It was 
                     so interesting to see how various user personas interacted different with the interface than 
                     I had in the past, and to think about how different features are important to different groups.  </li>
                   <li> UI / UX designs are everywhere around us! Sometimes I forget how much time and thought went into
@@ -142,8 +142,8 @@ function App() {
           <div class="row">
           <div class="col-3"> <img id="icons" class="grow" src="images/charity-icon.png"/> </div>
           <div class="col-9"><h3><h2>Context </h2>
-            <li>Key Concepts: accessable interface design, low fidelity and high fidelity prototypes, bootstrap  </li>
-            <li>Purpose: To succesfully identify accessability and design videos on an existing website, 
+            <li><b>Key Concepts</b>: accessable interface design, low fidelity and high fidelity prototypes, bootstrap  </li>
+            <li><b>Purpose</b>: To succesfully identify accessability and design videos on an existing website, 
               learning how to make improvements through a revamped website design. The website I chose was one that 
               I interacted often with in high school: the local charity organization I worked for. I always 
               remembered how poor the user experience was. Thus, I built this project to improve upon the 
@@ -163,12 +163,12 @@ function App() {
                     for new users to understand the website's purpose and elements.</li>
                   <li>Based on my style guide, I added colors and cohesive fonts, to make the website appealing and 
                     enjoyable to use.
-                    <a href="https://chillycobra747.github.io/responsive-redesign/#style-guide">learn more</a>  </li>
+                    <a href="https://chillycobra747.github.io/responsive-redesign/#style-guide">learn more about my style guide</a>  </li>
                   </ol>
-                <li>Interesting Lesson: While time-consuming, creating low-fi and high-fi sketches before building your site  
+                <li><b>Interesting Lesson</b>: While time-consuming, creating low-fi and high-fi sketches before building your site  
                   with code is extremely useful! Once I laid out all the elements I wanted to include on my site, 
                   I realized how many could be combined / simplified, which massively helped my overall site design and time-spent. </li>
-                <li>Idea from Findings: Oftentimes, simple is better! I was proud in my ability to make the website more 
+                <li><b>Idea from Findings</b>: Oftentimes, simple is better! I was proud in my ability to make the website more 
                   effective then the origional, with less mess and fewer words. </li>
               </h3></div>
            <div class="col-5"> <img src="images/wireframes.png" class="process-img"/> </div>
@@ -179,12 +179,12 @@ function App() {
               <h5>hover and click to visit site</h5>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
-                  <li>Personal Relation: I was motiviated to build this website, as this organization is important 
+                  <li><b>Personal Relation</b>: I was motiviated to build this website, as this organization is important 
                     to who I am today. Working for Assistance League taught me so much, and I care massively about 
                     the cause. I am glad I could do something to give back to them. </li>
                   <li>This project taught me the process of building an entire website. This includes choosing website themes,
                     identifing accessability and user experience issues on websites, and how to fix these issues 
-                    with my code. I believed I made needed improvements.  </li>
+                    with my code. </li>
                   </h3> 
                   <div class="col-5"> <img src="images/donate.png" class="moving-img"/> </div>
               </div>
@@ -193,18 +193,17 @@ function App() {
       </div>
       <div class="container"> 
         <div class="row" id="yhangry-div"> 
-        <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><h1>Startup Website on Figma</h1></a>  
+        <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><h1>Cooking Startup Website</h1></a>  
         <div class="row">
           <div class="col-3"> <img id="icons" class="grow" src="images/chef.png"/> </div>
-          <div class="col-9"><h3><h2>Context </h2>
-            Along with 3 teammates, we chose a startup concept we were excited 
+          <div class="col-9"><h3><h2>Context </h2> 
+          <li><b>Key Concepts</b>: startups, interactive Figma, teamwork, feedback </li>     
+            <li><b>Purpose</b>:  Along with 3 teammates, we chose a startup concept we were excited 
             about, which was yhangry, a British private-chef service. Before viewing the yhangry site, 
             only with knowledge about what the company does, we challenged outselves to create an 
-            interactive Figma which could be used as the website of our chosen startup.  
-            <li>Purpose: This project was focused on teamwork! Additionally, we learned more about startups, 
-              and how an entrepreneurial team can build a website based on their startup concept. This 
-              project also sought to teach me how to use figma, especially the interactive elements which 
-              all for prototypes of websites, before they are coded technically. 
+            interactive Figma which could be used as the website of our chosen startup. This project was 
+            focused on teamwork! Additionally, we learned more about startups, and how an entrepreneurial 
+            team can build a website based on their startup concept. 
             </li> </h3></div>
           </div>
           <div class="row">
@@ -215,11 +214,15 @@ function App() {
                 <li>My 3 team members and I each created low-fi sketches of what we thought the site should 
                   look like. From there, we worked together to create a consolidated plan. </li>
                 <li>We worked together on an interactive Figma site, adding pages and navigation between each. </li>
+                <li>Our fellow classmates critqued our original designs, which helped us make sound improvements 
+                  to the final project. </li>
+                <li>Finally, we submitted our Figma to a user-testing site, where we were able to watch random users 
+                  react to our site! It was so fun and valuable to watch and learn from these videos. </li>
               </ol>
-              <li>Interesting Lesson: Success in a project is going to take many iterations! My team and I learned so much 
+              <li><b>Interesting Lesson</b>: Success in a project is going to take many iterations! My team and I learned so much 
                   from eachother in order to make this website great, and also from feedback from others in 
-                  our UI/UX class.</li>
-              <li>Idea from Findings: Making iteractive Figmas is an easy and great way to craft a website. Figma has so many 
+                  our UI/UX class. </li>
+              <li><b>Idea from Findings</b>: Making iteractive Figmas is an easy and great way to craft a website. Figma has so many 
                 great features and functionality components I had not known about before this project. </li>
               </h3></div>
            <div class="col-5"> <img src="images/dishes.png" class="process-img"/> </div>
@@ -230,14 +233,21 @@ function App() {
               <h5>hover and click to visit site</h5>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
-                  <li>Personal Relation: xxx  </li>
-                  <li> xxx
-                  </li>
+                  <li><b>Personal Relation</b>: At Brown, I am heavily involved in entrepreneurship, and I 
+                    hope to build my own startup post-grad. I loved this project, in the ability to learn more 
+                    about a successful startup and how to design a startup's website!  </li>
+                  <li> My team and I even got to connect with the founders of this startup and show them our ideas.
+                  This project also sought to teach me how to use figma, especially the interactive elements which 
+                  all for prototypes of websites. </li>
                   </h3> 
                   <div class="col-5"> <img src="images/pot.png" class="moving-img"/> </div>
               </div>
             </div>
+          <div class="row" id="footer">
+            <a href="#headerText">return to top</a>  
+          </div>
         </div>
+        
       </div>
     </div>
   );
