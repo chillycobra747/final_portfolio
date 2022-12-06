@@ -51,6 +51,9 @@
   background-size:50%;
 }
 
+#headerText {
+  justify-content: right;
+}
 h1 {
   font-family: 'Dancing Script';
   font-size: 70px;
@@ -67,7 +70,7 @@ h2 {
   text-align: center;
   padding: 10px 30px 10px 30px;
 }
-h2,h4,p{
+h2,h4,h5,p, a{
   font-family: 'Klee One';
 }
 h3{
@@ -75,7 +78,15 @@ h3{
   font-size: 20px;
   line-height: 1.5;
 }
+a {
+  justify-content: center;
+  display: flex;
+}
 
+.row {
+  display: flex;
+  align-items: center;
+}
 img {
   opacity: 100%;
   width: 100%;
@@ -92,8 +103,35 @@ img:hover {
   transition: 1s ease;
 }
 
+.nav-img {
+  width: 100%;
+}
 .grow img{
   transition: 1s ease;
+}
+
+.process-img {
+  max-height: 500px;
+  max-width: 400px;
+  
+}
+.process-img:hover {
+  border: 3px solid #aa10f2;
+  transform: none;
+}
+.moving-img {
+  border: 0px;
+  box-shadow: 0 0 0px 0px #282a2d00;
+}
+.moving-img:hover {
+  border: 0px;
+  animation-duration: 5s;
+  animation-name: slide;
+}
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(250px); }
+  100% { transform: translateX(0); }
 }
 
 .container {
@@ -124,8 +162,8 @@ button {
 }
 
 #icons {
-  width: 200px; 
-  height: 200px;
+  width: 250px; 
+  height: 250px;
   align-self: center;
   border-radius: 100px;
   box-shadow: 0 0 0 0;
@@ -136,4 +174,5 @@ button {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
+  transform: rotate(360deg);
 }

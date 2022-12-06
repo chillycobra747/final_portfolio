@@ -7,58 +7,78 @@ function App() {
   return (
     <div className="App" id="App">
       <header className="App-header">
-      <a href="#App"><h1 color= "black" justify-content="right">Final Portfolio</h1></a>
-          
-          <h3>ChillyCobra747</h3>
-          </header>
-      
+      <h1 id="headerText">Final Portfolio</h1>
+        <h3>ChillyCobra747</h3>
+        </header>
       <nav class="navbar navbar-expand-sm navbar-light bg-white">
         <div class="container-fluid d-flex flex-column"> 
           <a class="navbar-brand" href="#"></a> 
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="navbar-item"><a href="#shelter-div" class="nav-link">Animal Shelter</a></li>
-              <li class="navbar-item"><a href="#storyboard-div" class="nav-link">User Storyboards</a></li>
-              <li class="navbar-item"><a href="#charity-div" class="nav-link">Charity Site Redesign</a></li>
-              <li class="navbar-item"><a href="#yhangry-div" class="nav-link">Startup Interactive</a></li>
+              <li class="navbar-item"><a href="#shelter-div" class="nav-link">
+                <h5>Animal Shelter</h5>
+                <img class="nav-img" src="images/shelter.png"/></a></li>
+              <li class="navbar-item"><a href="#storyboard-div" class="nav-link">
+                <h5>User Storyboards</h5>
+                <img class="nav-img" src="images/storyboards.png"/></a></li>
+              <li class="navbar-item"><a href="#charity-div" class="nav-link">
+                <h5>Charity Site Redesign</h5>
+                <img class="nav-img" src="images/charity.png"/></a></li>
+              <li class="navbar-item"><a href="#yhangry-div" class="nav-link">
+                <h5>Startup Interactive</h5>
+                <img class="nav-img" src="images/yhangry.png"/></a></li>
             </ul>
           </div>
        </div>
       </nav>
-
       <div class="container">
         <div class="row" id="shelter-div">
-        <h1>Animal Shelter Project</h1>
-          <div class="col-5">
-          <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="images/shelter.png"/></a>  
-            <h5>hover and click to visit site</h5>  
-              <a href="../src/shelter.html"><img id="icons" class="grow" src="images/puppy.png"/> </a>      
-          </div>
-
-          <div class="col-7">
-            <div>
-            
-              <h3><h2>Context </h2>To practice the functionality of JavaScript, I made this project, 
-              challenging myself to include components, working buttons, an adjustable cart, filters,
-              and more! The site could be of any theme, but as I love dogs, I chose to create an animal shelter. 
+          <h1>Animal Shelter Project</h1>
+          <a href="https://chillycobra747.github.io/development_main">click here to visit project website</a>  
+          <div class="row">
+           <div class="col-3"> <img id="icons" class="grow" src="images/puppy.png"/> </div>
+           <div class="col-9"><h3> <h2>Context </h2>
+              <li>Key Concepts: JavaScript, website development, components, React </li>
               <li>Purpose: This project introduced the concepts of components and functions in JavaScript. 
-                The website itself was built to encourage adopting dogs from shelters. 
+                In building this project, I challenged myself to include components, working buttons, an 
+                adjustable cart, filters, and more! The site could be of any theme, but as I love dogs, 
+                I chose to create an animal shelter. I hoped that the theme of this site would encourage others
+                to adopt animals from shelters. 
               </li>
-              </h3>
-              <h3><h2>Process </h2>
-                <li>I began the creation of my shelter starting with the data, addings 12 different dog 
-                profiles to a data file. </li>
-                <li> With all of the dog data prepared, I could easily build the grid, displaying each 
-                  of the 12 dogs and their information.</li>
-                <li>I added a "cart" by which I could add and remove dogs, using react buttons.</li>
-                <li>Finally, I implemented sorting and filtering functionality, using toggle buttons!</li>
-              </h3>
-              <h3><h2>Findings </h2>
-                <li>I leared a lot about react through by time building this website. This was my first 
-                  experience working with react. </li>
-                <li>I chose to build an animal shelter to highlight the importance of adopting dogs from
+              </h3></div>
+          </div>
+          <div class="row">
+            <div class="col-7"><h3> <h2>Process </h2>
+                <ol>
+                <li>I began the creation of my shelter by downloading npm and react so that I could
+                  make functions and exciting interactions the site. </li>
+                  <li>To create the backend of my shelter, I started with the data, addings 12 different dog 
+                  profiles to a data file. </li>
+                  <li> With all of the dog data prepared, I could easily build the grid, displaying each 
+                    of the 12 dogs and their information.</li>
+                  <li>I added a "cart" by which I could add and remove dogs, using react buttons.</li>
+                  <li>Finally, I implemented sorting and filtering functionality, using toggle buttons.</li>
+                </ol>
+                <li>Interesting Lesson: Buttons can act as "triggers" in React by changing the current state 
+                  (useState by React) of a variable to alter an element of your website! </li>
+                <li>Idea: This site could be expanded to include videos of the available dogs, making users
+                  even more excited and hopeful to purchase an in-need shelter dog.  </li>
+              </h3></div>
+           <div class="col-5"> <img src="images/shelter-cart.png" class="process-img"/> </div>
+          </div>
+          <div class="row">
+            <div class="col-7">
+              <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="images/shelter.png"/></a>  
+              <h5>hover and click to visit site</h5>  
+            </div>
+           <div class="col-5"><h3><h2>Findings & Connection </h2>
+                <li>Personal Relation: I have adopted 2 dogs from shelters, and I care deeply about helping
+                  more animals in shelters find safe homes. I chose to build an animal shelter to highlight the importance of adopting dogs from
                    selters, as many dogs are left without homes. </li>
-              </h3>
+                <li>I leared a lot about React through by time building this website. This was my first 
+                  experience working with React and I had a lot of fun with it! </li>
+                </h3> 
+                <div class="col-5"> <img src="images/puppy.png" class="moving-img"/> </div>
             </div>
           </div>
         </div>
@@ -66,17 +86,17 @@ function App() {
       <div class="container">
         <div class="row" id="storyboard-div">
         <h1>Storyboarding Project</h1>
-          <div class="col-6">
-          <a href="./storyboard.html"><img id="icons" class="grow" src="images/puppy.png"/> </a>  
-
-              <h3><h2>Context </h2>In order to learn more about User Interfaces / User Experience class, I was 
-              tasked to chose and observe user interactions with any physical interface in real life. Through
-              these observations, I should note (and then draw) how the user interacted with the interface. This 
-              site records my observations, user interview questions, and findings. 
+          <div class="col-6"> 
+              <h3><h2>Context </h2>
+              <li>Key Concepts: user interviews, creating accessable interfaces, user personas, interface sketches  </li>
               <li>Purpose: To better learn how to step into a users shoes, improving my user design abilities.
                 This taught me how to observe users interacting with an interface, interview effectively, 
-                create and explain user personas, and build storyboards.
-              </li> </h3>
+                create and explain user personas, and build storyboards. The project introduced important concepts 
+                for the start of my User Interfaces / User Experience class at Brown Univeristy. I was 
+              tasked to chose and observe user interactions with any physical interface in real life. Through
+              these observations, I should note (and then draw) how the user interacted with the interface. This 
+              site records my observations, user interview questions, and findings. </li>
+              </h3>
               <h3><h2>Process </h2>
                 <li>This idea started with observations, in watching individuals interact with the Ceremony Tea 
                   'Toast' checkout device. </li>
@@ -85,7 +105,7 @@ function App() {
                 <li>To learn about how users felt about the checkout process at Ceremony Tea, I 
                   conducted interviews and recorded my findings on my site. </li>
               </h3>
-              <h3><h2>Findings </h2>
+              <h3><h2>Findings & Connection </h2>
                 <li>Storyboarding is a wonderful and effective way to track a user's experience with 
                   a product! </li>
                 <li>Observing is really fun! But experience some awkward moments of people confused
