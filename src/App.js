@@ -22,7 +22,7 @@ function App() {
                 <h5>Ceremony Tea Storyboarding</h5>
                 <img class="nav-img" src="images/storyboards.png"/></a></li>
               <li class="navbar-item"><a href="#charity-div" class="nav-link">
-                <h5>Charity Site Redesign</h5>
+                <h5>Charity Website Redesign</h5>
                 <img class="nav-img" src="images/charity.png"/></a></li>
               <li class="navbar-item"><a href="#yhangry-div" class="nav-link">
                 <h5>Startup Interactive</h5>
@@ -138,13 +138,12 @@ function App() {
       </div>
       <div class="container">
         <div class="row" id="charity-div">
-          <h1>Website Redesign</h1>
-          <div class="col-5" id="charity">
-          <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="images/charity.png"/></a>  
-            <h5>hover and click to visit site</h5>  
-          </div>
-          <div class="col-7">
-            <h3><h2>Context </h2>This website was made as an iteration of a poorly made website I 
+        <a href="https://chillycobra747.github.io/al-website/"><h1>Charity Website Redesign</h1></a>  
+          <div class="row">
+          <div class="col-3"> <img id="icons" class="grow" src="images/charity-icon.png"/> </div>
+          <div class="col-9"><h3><h2>Context </h2>
+            <li>Key Concepts: user interviews, creating accessable interfaces, user personas, interface sketches  </li>
+            This website was made as an iteration of a poorly made website I 
             have previously encountered, which I believed needs improvements. I used a chairty website 
             I had used in high school, and remembered how poor the user experience was. Thus, I built 
             this project to improve upon the currently published Assistance Leauge website. 
@@ -152,29 +151,49 @@ function App() {
               fidelity and high fidelity prototypes, choosing website themes and colors. This project 
               taught me how to identify accessability and user experience issues on websites, and how to fix
               these issues with my designs and code. 
-            </li></h3>
-            <h3><h2>Process </h2>
+            </li></h3></div>
+          </div>
+          <div class="row">
+            <div class="col-7"><h3> <h2>Process </h2>
+                <ol>
                 <li>I first studied the content and layout of the site I was going to rebuild. Once I 
                   had a thorough understanding of the website, I could iterate and improve from there. </li>
                 <li> I began my rebuilding process with low-fi and high-fi sketches. </li>
                 <li>I used a navbar to allow for easy navigation between the different pages of the website. </li>
                 <li>My focus for the website redesign was simplification. I aimed to make it easier and faster 
                   for new users to understand the website's purpose and elements.</li>
-              </h3>
-              <h3><h2>Findings </h2>
-                <li>While time-consuming, creating low-fi and high-fi sketches before building your site  
+                  </ol>
+                <li>Interesting Lesson: You can learn a lot from observing individuals around you. I spend so much time on my 
+                  devices, I forget to pay attention to the people around me. This assignment was a wonderful lesson about context awareness. </li>
+                <li>Idea from Findings: Because of the amount I learned from storyboarding, I should watch users 
+                  interact with every website I build, making improvements from these observations. </li>
+              </h3></div>
+           <div class="col-5"> <img src="images/wireframes.png" class="process-img"/> </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="images/charity.png"/></a>  
+              <h5>hover and click to visit site</h5>      
+            </div>
+            <div class="col-6"><h3><h2>Findings & Connection </h2>
+                  <li>Personal Relation:While time-consuming, creating low-fi and high-fi sketches before building your site  
                   with code is extremely useful!  </li>
-                <li>Oftentimes, simple is better! I was proud in my ability to make the website more 
-                  effective then the origional, with less mess and fewer words. </li>
-              </h3>
+                  <li> Oftentimes, simple is better! I was proud in my ability to make the website more 
+                  effective then the origional, with less mess and fewer words.
+                  </li>
+                  </h3> 
+                  <div class="col-5"> <img src="images/donate.png" class="moving-img"/> </div>
+              </div>
             </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row" id="yhangry-div">
-        <h1>Startup Website on Figma</h1>
-          <div class="col-6">
-            <h3><h2>Context </h2>Along with 3 teammates, we chose a startup concept we were excited 
+      <div class="container"> 
+        <div class="row" id="yhangry-div"> 
+        <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><h1>Startup Website on Figma</h1></a>  
+        <div class="row">
+          <div class="col-3"> <img id="icons" class="grow" src="images/chef.png"/> </div>
+          <div class="col-9"><h3><h2>Context </h2>
+            Along with 3 teammates, we chose a startup concept we were excited 
             about, which was yhangry, a British private-chef service. Before viewing the yhangry site, 
             only with knowledge about what the company does, we challenged outselves to create an 
             interactive Figma which could be used as the website of our chosen startup.  
@@ -182,27 +201,38 @@ function App() {
               and how an entrepreneurial team can build a website based on their startup concept. This 
               project also sought to teach me how to use figma, especially the interactive elements which 
               all for prototypes of websites, before they are coded technically. 
-            </li> </h3>
-            <h3><h2>Process </h2>
-                <li>In order for this project to be successful, we first needed to understand the purpose 
+            </li> </h3></div>
+          </div>
+          <div class="row">
+            <div class="col-7"><h3> <h2>Process </h2>
+              <ol>
+              <li>In order for this project to be successful, we first needed to understand the purpose 
                   and mission of the company. Thus, we started with thorough research on our chosen startup. </li>
                 <li>My 3 team members and I each created low-fi sketches of what we thought the site should 
                   look like. From there, we worked together to create a consolidated plan. </li>
                 <li>We worked together on an interactive Figma site, adding pages and navigation between each. </li>
-              </h3>
-              <h3><h2>Findings </h2>
-                <li>Success in a project is going to take many iterations! My team and I learned so much 
+              </ol>
+              <li>Interesting Lesson: Success in a project is going to take many iterations! My team and I learned so much 
                   from eachother in order to make this website great, and also from feedback from others in 
-                  our UI/UX class.
-                </li>
-                <li>Making iteractive Figmas is an easy and great way to craft a website. Figma has so many 
-                  great features and functionality components I had not known about before this project. </li>
-              </h3>
+                  our UI/UX class.</li>
+              <li>Idea from Findings: Making iteractive Figmas is an easy and great way to craft a website. Figma has so many 
+                great features and functionality components I had not known about before this project. </li>
+              </h3></div>
+           <div class="col-5"> <img src="images/dishes.png" class="process-img"/> </div>
           </div>
-          <div class="col-6" id="yhangry">
-          <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><img class="grow" src="images/yhangry.png"/></a>  
-            <h5>hover and click to visit site</h5> 
-          </div>
+          <div class="row">
+            <div class="col-6">
+              <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><img class="grow" src="images/yhangry.png"/></a>  
+              <h5>hover and click to visit site</h5>      
+            </div>
+            <div class="col-6"><h3><h2>Findings & Connection </h2>
+                  <li>Personal Relation: xxx  </li>
+                  <li> xxx
+                  </li>
+                  </h3> 
+                  <div class="col-5"> <img src="images/pot.png" class="moving-img"/> </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
