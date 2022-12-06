@@ -19,7 +19,7 @@ function App() {
                 <h5>Animal Shelter</h5>
                 <img class="nav-img" src="images/shelter.png"/></a></li>
               <li class="navbar-item"><a href="#storyboard-div" class="nav-link">
-                <h5>User Storyboards</h5>
+                <h5>Ceremony Tea Storyboarding</h5>
                 <img class="nav-img" src="images/storyboards.png"/></a></li>
               <li class="navbar-item"><a href="#charity-div" class="nav-link">
                 <h5>Charity Site Redesign</h5>
@@ -33,8 +33,7 @@ function App() {
       </nav>
       <div class="container">
         <div class="row" id="shelter-div">
-          <h1>Animal Shelter Project</h1>
-          <a href="https://chillycobra747.github.io/development_main">click here to visit project website</a>  
+          <a href="https://chillycobra747.github.io/development_main"><h1>Animal Shelter Project</h1></a>  
           <div class="row">
            <div class="col-3"> <img id="icons" class="grow" src="images/puppy.png"/> </div>
            <div class="col-9"><h3> <h2>Context </h2>
@@ -61,7 +60,7 @@ function App() {
                 </ol>
                 <li>Interesting Lesson: Buttons can act as "triggers" in React by changing the current state 
                   (useState by React) of a variable to alter an element of your website! </li>
-                <li>Idea: This site could be expanded to include videos of the available dogs, making users
+                <li>Idea from Findings: This site could be expanded to include videos of the available dogs, making users
                   even more excited and hopeful to purchase an in-need shelter dog.  </li>
               </h3></div>
            <div class="col-5"> <img src="images/shelter-cart.png" class="process-img"/> </div>
@@ -69,53 +68,72 @@ function App() {
           <div class="row">
             <div class="col-7">
               <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="images/shelter.png"/></a>  
-              <h5>hover and click to visit site</h5>  
+              <h3>hover and click to visit site</h3>  
             </div>
            <div class="col-5"><h3><h2>Findings & Connection </h2>
                 <li>Personal Relation: I have adopted 2 dogs from shelters, and I care deeply about helping
                   more animals in shelters find safe homes. I chose to build an animal shelter to highlight the importance of adopting dogs from
                    selters, as many dogs are left without homes. </li>
-                <li>I leared a lot about React through by time building this website. This was my first 
+                <li>I leared a massive amount about React through by time building this website. This was my first 
                   experience working with React and I had a lot of fun with it! </li>
                 </h3> 
-                <div class="col-5"> <img src="images/puppy.png" class="moving-img"/> </div>
+                <div class="col-5"> <img src="images/moving-dog.png" class="moving-img"/> </div>
             </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row" id="storyboard-div">
-        <h1>Storyboarding Project</h1>
-          <div class="col-6"> 
-              <h3><h2>Context </h2>
-              <li>Key Concepts: user interviews, creating accessable interfaces, user personas, interface sketches  </li>
-              <li>Purpose: To better learn how to step into a users shoes, improving my user design abilities.
-                This taught me how to observe users interacting with an interface, interview effectively, 
-                create and explain user personas, and build storyboards. The project introduced important concepts 
-                for the start of my User Interfaces / User Experience class at Brown Univeristy. I was 
-              tasked to chose and observe user interactions with any physical interface in real life. Through
-              these observations, I should note (and then draw) how the user interacted with the interface. This 
-              site records my observations, user interview questions, and findings. </li>
-              </h3>
-              <h3><h2>Process </h2>
+        <a href="https://chillycobra747.github.io/storyboards/"><h1>Ceremony Tea Storyboarding</h1></a>  
+        <div class="row">
+          <div class="col-3"> <img id="icons" class="grow" src="images/coffee.png"/> </div>
+          <div class="col-9"><h3><h2>Context </h2>
+            <li>Key Concepts: user interviews, creating accessable interfaces, user personas, interface sketches  </li>
+            <li>Purpose: To better learn how to step into a users shoes, improving my user design abilities.
+              This taught me how to observe users interacting with an interface, interview effectively, 
+              create and explain user personas, and build storyboards. The project introduced important concepts 
+              for the start of my User Interfaces / User Experience class at Brown Univeristy. I was 
+            tasked to chose and observe user interactions with any physical interface in real life. Through
+            these observations, I should note (and then draw) how the user interacted with the interface. This 
+            site records my observations, user interview questions, and findings. </li>
+            </h3></div>
+          </div>
+          <div class="row">
+            <div class="col-7"><h3> <h2>Process </h2>
+                <ol>
                 <li>This idea started with observations, in watching individuals interact with the Ceremony Tea 
-                  'Toast' checkout device. </li>
-                <li> Following my observations, I was able to build user personas and depict them through 
-                  drawings and character personas.</li>
-                <li>To learn about how users felt about the checkout process at Ceremony Tea, I 
-                  conducted interviews and recorded my findings on my site. </li>
-              </h3>
-              <h3><h2>Findings & Connection </h2>
-                <li>Storyboarding is a wonderful and effective way to track a user's experience with 
-                  a product! </li>
-                <li>Observing is really fun! But experience some awkward moments of people confused
-                  why I was staring at them so much. </li>
-              </h3>
+                  'Toast' checkout device.  </li>
+                <li>Once I selected the interface I would study, I went to its location and observed how 
+                  various users interacted with it. </li>
+                <li> While observing, I began to identify similarities and differences between the interactions, 
+                  developing a set of user personas.  </li>
+                <li>I charted the user personas on my website, practicing how to create detailed character descriptions. </li>
+                <li> To learn about how users felt about the checkout process at Ceremony Tea, I conducted interviews and recorded my findings.</li>
+                </ol>
+                <li>Interesting Lesson: You can learn a lot from observing individuals around you. I spend so much time on my 
+                  devices, I forget to pay attention to the people around me. This assignment was a wonderful lesson about context awareness. </li>
+                <li>Idea from Findings: Because of the amount I learned from storyboarding, I should watch users 
+                  interact with every website I build, making improvements from these observations. </li>
+              </h3></div>
+           <div class="col-5"> <img src="images/story-drawings.png" class="process-img"/> </div>
           </div>
-          <div class="col-6">
-            <a href="https://chillycobra747.github.io/storyboards/"><img class="grow" src="images/storyboards.png"/></a>  
-            <h5>hover and click to visit site</h5>      
-          </div>
+          <div class="row">
+            <div class="col-6">
+              <a href="https://chillycobra747.github.io/storyboards/"><img class="grow" src="images/storyboards.png"/></a>  
+              <h5>hover and click to visit site</h5>      
+            </div>
+            <div class="col-6"><h3><h2>Findings & Connection </h2>
+                  <li>Personal Relation: I regularly visit the coffee/shop which I studied the interface from. It was 
+                    so interesting to see how various user personas interacted different with the interface than 
+                    I had in the past, and to think about how different features are important to different groups.  </li>
+                  <li> UI / UX designs are everywhere around us! Sometimes I forget how much time and thought went into
+                     all the products I use every single day (and how even the most advanced ones can always be improved).
+                  </li>
+                  </h3> 
+                  <div class="col-5"> <img src="images/donut.png" class="moving-img"/> </div>
+              </div>
+            </div>
+            
         </div>
       </div>
       <div class="container">
