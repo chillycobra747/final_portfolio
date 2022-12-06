@@ -142,31 +142,34 @@ function App() {
           <div class="row">
           <div class="col-3"> <img id="icons" class="grow" src="images/charity-icon.png"/> </div>
           <div class="col-9"><h3><h2>Context </h2>
-            <li>Key Concepts: user interviews, creating accessable interfaces, user personas, interface sketches  </li>
-            This website was made as an iteration of a poorly made website I 
-            have previously encountered, which I believed needs improvements. I used a chairty website 
-            I had used in high school, and remembered how poor the user experience was. Thus, I built 
-            this project to improve upon the currently published Assistance Leauge website. 
-            <li>Purpose: To learn the process of building an entire website. This includes making low
-              fidelity and high fidelity prototypes, choosing website themes and colors. This project 
-              taught me how to identify accessability and user experience issues on websites, and how to fix
-              these issues with my designs and code. 
-            </li></h3></div>
+            <li>Key Concepts: accessable interface design, low fidelity and high fidelity prototypes, bootstrap  </li>
+            <li>Purpose: To succesfully identify accessability and design videos on an existing website, 
+              learning how to make improvements through a revamped website design. The website I chose was one that 
+              I interacted often with in high school: the local charity organization I worked for. I always 
+              remembered how poor the user experience was. Thus, I built this project to improve upon the 
+              currently existing site. This taught me the entire cycle of building a website, starting with low 
+              fidelity and high fidelity sketches, as well as a style guide, to plan colors, fonts, and an overall cohesive design.
+            </li>
+            </h3></div>
           </div>
           <div class="row">
             <div class="col-7"><h3> <h2>Process </h2>
                 <ol>
-                <li>I first studied the content and layout of the site I was going to rebuild. Once I 
-                  had a thorough understanding of the website, I could iterate and improve from there. </li>
-                <li> I began my rebuilding process with low-fi and high-fi sketches. </li>
-                <li>I used a navbar to allow for easy navigation between the different pages of the website. </li>
-                <li>My focus for the website redesign was simplification. I aimed to make it easier and faster 
-                  for new users to understand the website's purpose and elements.</li>
+                  <li>I first studied the content and layout of the site I was decided to rebuild. Once I 
+                    had a thorough understanding of the website, I could iterate and improve from there. </li>
+                  <li> I began my rebuilding process with low-fi (see right) and high-fi sketches, built on Balsamiq and Figma, respectively. </li>
+                  <li>I used the bootstrap library to build a functioning navbar to allow for easy navigation between the different pages of the website. </li>
+                  <li>My focus for the redesign was simplification. I aimed to make it easier and faster 
+                    for new users to understand the website's purpose and elements.</li>
+                  <li>Based on my style guide, I added colors and cohesive fonts, to make the website appealing and 
+                    enjoyable to use.
+                    <a href="https://chillycobra747.github.io/responsive-redesign/#style-guide">learn more</a>  </li>
                   </ol>
-                <li>Interesting Lesson: You can learn a lot from observing individuals around you. I spend so much time on my 
-                  devices, I forget to pay attention to the people around me. This assignment was a wonderful lesson about context awareness. </li>
-                <li>Idea from Findings: Because of the amount I learned from storyboarding, I should watch users 
-                  interact with every website I build, making improvements from these observations. </li>
+                <li>Interesting Lesson: While time-consuming, creating low-fi and high-fi sketches before building your site  
+                  with code is extremely useful! Once I laid out all the elements I wanted to include on my site, 
+                  I realized how many could be combined / simplified, which massively helped my overall site design and time-spent. </li>
+                <li>Idea from Findings: Oftentimes, simple is better! I was proud in my ability to make the website more 
+                  effective then the origional, with less mess and fewer words. </li>
               </h3></div>
            <div class="col-5"> <img src="images/wireframes.png" class="process-img"/> </div>
           </div>
@@ -176,11 +179,12 @@ function App() {
               <h5>hover and click to visit site</h5>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
-                  <li>Personal Relation:While time-consuming, creating low-fi and high-fi sketches before building your site  
-                  with code is extremely useful!  </li>
-                  <li> Oftentimes, simple is better! I was proud in my ability to make the website more 
-                  effective then the origional, with less mess and fewer words.
-                  </li>
+                  <li>Personal Relation: I was motiviated to build this website, as this organization is important 
+                    to who I am today. Working for Assistance League taught me so much, and I care massively about 
+                    the cause. I am glad I could do something to give back to them. </li>
+                  <li>This project taught me the process of building an entire website. This includes choosing website themes,
+                    identifing accessability and user experience issues on websites, and how to fix these issues 
+                    with my code. I believed I made needed improvements.  </li>
                   </h3> 
                   <div class="col-5"> <img src="images/donate.png" class="moving-img"/> </div>
               </div>
