@@ -59,6 +59,7 @@ h1 {
   font-size: 70px;
   display: flex;
   justify-content: center;
+  text-shadow:rgba(0, 0, 0, 0.534) 1px 3px 3px;
 }
 h2 {
   font-family: 'Klee One';
@@ -86,6 +87,7 @@ a {
 }
 a:hover {
   color: blue;
+  text-decoration: underline;
 }
 #little-a {
   font-family: 'Klee One';
