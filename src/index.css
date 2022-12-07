@@ -95,7 +95,7 @@ a:hover {
   display: table;
   font-weight: bolder;
   border-color: purple; 
-  box-shadow: 2px 2px 2px 1px purple;
+  box-shadow: 3px 1px 3px 1px purple;
   border-width: 1px;
   text-align: center;
   padding: 5px 10px 5px 10px;
@@ -199,5 +199,5 @@ button {
 }
 #footer {
   background-image: url("melon.png");
-  height: 100px;
+  height: 200px;
 }

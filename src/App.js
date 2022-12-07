@@ -56,7 +56,8 @@ function App() {
                   <li> With all of the dog data prepared, I could easily build the grid, displaying each 
                     of the 12 dogs and their information.</li>
                   <li>I added a "cart" by which I could add and remove dogs, using react buttons.</li>
-                  <li>Finally, I implemented sorting and filtering functionality, using toggle buttons.</li>
+                  <li>Finally, I implemented sorting and filtering functionality, using toggle buttons through the
+                    React programming language.</li>
                 </ol>
                 <li><b>Interesting Lesson</b>: Buttons can act as "triggers" in React by changing the current state 
                   (useState by React) of a variable to alter an element of your website! </li>
@@ -68,7 +69,7 @@ function App() {
           <div class="row">
             <div class="col-7">
               <a href="https://chillycobra747.github.io/development_main"><img class="grow" src="images/shelter.png"/></a>  
-              <h3>hover and click to visit site</h3>  
+              <h3><i>hover and click to visit site</i></h3>  
             </div>
            <div class="col-5"><h3><h2>Findings & Connection </h2>
                 <li><b>Personal Connection</b>: I have adopted 2 dogs from shelters, and I care deeply about helping
@@ -109,18 +110,21 @@ function App() {
                   developing a set of user personas.  </li>
                 <li>I charted the user personas on my website, practicing how to create detailed character descriptions. </li>
                 <li> To learn about how users felt about the checkout process at Ceremony Tea, I conducted interviews and recorded my findings.</li>
+                <a id="little-a" href="https://chillycobra747.github.io/storyboards/observations.html">
+                    see interview results</a> 
                 </ol>
                 <li><b>Interesting Lesson</b>: You can learn a lot from observing individuals around you. I spend so much time on my 
                   devices, I forget to pay attention to the people around me. This assignment was a wonderful lesson about context awareness. </li>
                 <li><b>Idea from Findings</b>: Because of the amount I learned from storyboarding, I should watch users 
                   interact with every website I build, making improvements from these observations. </li>
+                  
               </h3></div>
            <div class="col-5"> <img src="images/story-drawings.png" class="process-img"/> </div>
           </div>
           <div class="row">
             <div class="col-6">
               <a href="https://chillycobra747.github.io/storyboards/"><img class="grow" src="images/storyboards.png"/></a>  
-              <h5>hover and click to visit site</h5>      
+              <h3><i>hover and click to visit site</i></h3>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
                   <li><b>Personal Connection</b>: I regularly visit the coffee/shop which I studied the interface from. It was 
@@ -176,7 +180,7 @@ function App() {
           <div class="row">
             <div class="col-6">
               <a href="https://chillycobra747.github.io/al-website/"><img class="grow" src="images/charity.png"/></a>  
-              <h5>hover and click to visit site</h5>      
+              <h3><i>hover and click to visit site</i></h3>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
                   <li><b>Personal Connection</b>: I was motiviated to build this website, as this organization is important 
@@ -218,6 +222,8 @@ function App() {
                   to the final project. </li>
                 <li>Finally, we submitted our Figma to a user-testing site, where we were able to watch random users 
                   react to our site! It was so fun and valuable to watch and learn from these videos. </li>
+                  <a id="little-a" href="https://www.figma.com/proto/PvA6Jc4rSRw1mEHo2pMWHE/new-hi-fi-prototype?node-id=178%3A90&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=178%3A90">
+                    see interactive figma</a> 
               </ol>
               <li><b>Interesting Lesson</b>: Success in a project is going to take many iterations! My team and I learned so much 
                   from eachother in order to make this website great, and also from feedback from others in 
@@ -230,7 +236,7 @@ function App() {
           <div class="row">
             <div class="col-6">
               <a href="https://exhaustedpanda557.github.io/iterativeDesign/"><img class="grow" src="images/yhangry.png"/></a>  
-              <h5>hover and click to visit site</h5>      
+              <h3><i>hover and click to visit site</i></h3>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
                   <li><b>Personal Connection</b>: At Brown, I am heavily involved in entrepreneurship, and I 
