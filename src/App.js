@@ -16,16 +16,16 @@ function App() {
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
               <li class="navbar-item"><a href="#shelter-div" class="nav-link">
-                <h5>Animal Shelter</h5>
+                <h4>Animal Shelter</h4>
                 <img class="nav-img" src="images/shelter.png"/></a></li>
               <li class="navbar-item"><a href="#storyboard-div" class="nav-link">
-                <h5>Ceremony Tea Storyboarding</h5>
+                <h4>Ceremony Tea Storyboarding</h4>
                 <img class="nav-img" src="images/storyboards.png"/></a></li>
               <li class="navbar-item"><a href="#charity-div" class="nav-link">
-                <h5>Charity Website Redesign</h5>
+                <h4>Charity Website Redesign</h4>
                 <img class="nav-img" src="images/charity.png"/></a></li>
               <li class="navbar-item"><a href="#yhangry-div" class="nav-link">
-                <h5>Cooking Startup Website</h5>
+                <h4>Cooking Startup Website</h4>
                 <img class="nav-img" src="images/yhangry.png"/></a></li>
             </ul>
           </div>
