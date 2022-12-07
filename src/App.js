@@ -33,7 +33,7 @@ function App() {
       </nav>
       <div class="container">
         <div class="row" id="shelter-div">
-          <a href="https://chillycobra747.github.io/development_main"><h1>Animal Shelter Project</h1></a>  
+          <a href="https://chillycobra747.github.io/development_main"><h1>Animal Shelter Project</h1> </a> 
           <div class="row">
            <div class="col-3"> <img id="icons" class="grow" src="images/puppy.png"/> </div>
            <div class="col-9"><h3> <h2>Context </h2>
@@ -71,7 +71,7 @@ function App() {
               <h3>hover and click to visit site</h3>  
             </div>
            <div class="col-5"><h3><h2>Findings & Connection </h2>
-                <li><b>Personal Relation</b>: I have adopted 2 dogs from shelters, and I care deeply about helping
+                <li><b>Personal Connection</b>: I have adopted 2 dogs from shelters, and I care deeply about helping
                   more animals in shelters find safe homes. I chose to build an animal shelter to highlight the importance of adopting dogs from
                    selters, as many dogs are left without homes. </li>
                 <li>I leared a massive amount about React through by time building this website. This was my first 
@@ -123,7 +123,7 @@ function App() {
               <h5>hover and click to visit site</h5>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
-                  <li><b>Personal Relation</b>: I regularly visit the coffee/shop which I studied the interface from. It was 
+                  <li><b>Personal Connection</b>: I regularly visit the coffee/shop which I studied the interface from. It was 
                     so interesting to see how various user personas interacted different with the interface than 
                     I had in the past, and to think about how different features are important to different groups.  </li>
                   <li> UI / UX designs are everywhere around us! Sometimes I forget how much time and thought went into
@@ -163,7 +163,7 @@ function App() {
                     for new users to understand the website's purpose and elements.</li>
                   <li>Based on my style guide, I added colors and cohesive fonts, to make the website appealing and 
                     enjoyable to use.
-                    <a href="https://chillycobra747.github.io/responsive-redesign/#style-guide">learn more about my style guide</a>  </li>
+                    <a id="little-a" href="https://chillycobra747.github.io/responsive-redesign/#style-guide">see style guide</a>  </li>
                   </ol>
                 <li><b>Interesting Lesson</b>: While time-consuming, creating low-fi and high-fi sketches before building your site  
                   with code is extremely useful! Once I laid out all the elements I wanted to include on my site, 
@@ -179,7 +179,7 @@ function App() {
               <h5>hover and click to visit site</h5>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
-                  <li><b>Personal Relation</b>: I was motiviated to build this website, as this organization is important 
+                  <li><b>Personal Connection</b>: I was motiviated to build this website, as this organization is important 
                     to who I am today. Working for Assistance League taught me so much, and I care massively about 
                     the cause. I am glad I could do something to give back to them. </li>
                   <li>This project taught me the process of building an entire website. This includes choosing website themes,
@@ -197,7 +197,7 @@ function App() {
         <div class="row">
           <div class="col-3"> <img id="icons" class="grow" src="images/chef.png"/> </div>
           <div class="col-9"><h3><h2>Context </h2> 
-          <li><b>Key Concepts</b>: startups, interactive Figma, teamwork, feedback </li>     
+          <li><b>Key Concepts</b>: user testing, startups, interactive Figma, teamwork, feedback </li>     
             <li><b>Purpose</b>:  Along with 3 teammates, we chose a startup concept we were excited 
             about, which was yhangry, a British private-chef service. Before viewing the yhangry site, 
             only with knowledge about what the company does, we challenged outselves to create an 
@@ -233,7 +233,7 @@ function App() {
               <h5>hover and click to visit site</h5>      
             </div>
             <div class="col-6"><h3><h2>Findings & Connection </h2>
-                  <li><b>Personal Relation</b>: At Brown, I am heavily involved in entrepreneurship, and I 
+                  <li><b>Personal Connection</b>: At Brown, I am heavily involved in entrepreneurship, and I 
                     hope to build my own startup post-grad. I loved this project, in the ability to learn more 
                     about a successful startup and how to design a startup's website!  </li>
                   <li> My team and I even got to connect with the founders of this startup and show them our ideas.
@@ -244,7 +244,7 @@ function App() {
               </div>
             </div>
           <div class="row" id="footer">
-            <a href="#headerText">return to top</a>  
+            <a id="little-a" href="#headerText">return to top</a>  
           </div>
         </div>
         

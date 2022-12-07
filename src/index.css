@@ -78,11 +78,28 @@ h3{
   font-size: 18px;
   line-height: 1.5;
 }
+
 a {
   justify-content: center;
   display: flex;
+  text-decoration: none;
 }
-
+a:hover {
+  color: blue;
+}
+#little-a {
+  font-family: 'Klee One';
+  font-size: 15px;
+  background-color: rgb(250, 249, 249);
+  border-radius: 10px;
+  display: table;
+  font-weight: bolder;
+  border-color: purple; 
+  box-shadow: 2px 2px 2px 1px purple;
+  border-width: 1px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
 .row {
   display: flex;
   align-items: center;
@@ -118,11 +135,12 @@ img:hover {
 .process-img {
   max-height: 520px;
   max-width: 400px;
-  
+  box-shadow: 0 0 0px 0px #282a2d00;
 }
 .process-img:hover {
-  border: 3px solid #aa10f2;
+  border: none;
   transform: none;
+  transition: none;
 }
 .moving-img {
   border: 0px;
