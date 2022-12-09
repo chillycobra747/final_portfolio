@@ -32,6 +32,21 @@ function App() {
        </div>
       </nav>
       <div class="container">
+        <div class="row" id="about-div">
+          <div class="col-3"><h2> About Me: </h2></div>
+          <div class="col-9">
+            <h3>I am a senior at Brown University studying computer science and business. 
+            I love anything technology, having experience with robotics and semiconductors, and I 
+            spent about 6 months teaching children Java and Python in 1:1 sessions. I absoluetely love art, 
+            with my favorite form being painting: the walls in my room always cycle through my most recently 
+            completed painting. A few of my favorite things are fruit, the color pink, and animals; all of which 
+            are important components of my portfolio here. Finally, I greatly enjoy running, and will be 
+            running my first half marathon next month!   
+            </h3>
+            </div>
+        </div>
+       </div>
+      <div class="container">
         <div class="row" id="shelter-div">
           <a href="https://chillycobra747.github.io/development_main"><h1>Animal Shelter Project</h1> </a> 
           <div class="row">

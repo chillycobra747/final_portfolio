@@ -150,6 +150,9 @@ img:hover {
   display: flex;
 }
 
+#about-div {
+  padding:50px;
+}
 #shelter-div {
   background-color:#ffb6c1b6;	
   text-align: left;
