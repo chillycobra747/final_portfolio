@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.2f15399e.css",
-    "main.js": "/final_portfolio/static/js/main.7ec6685f.js",
+    "main.css": "/final_portfolio/static/css/main.5646fd2c.css",
+    "main.js": "/final_portfolio/static/js/main.887b097c.js",
     "static/media/melon.png": "/final_portfolio/static/media/melon.46925006b03c6690a100.png",
     "static/media/klee-one-v7-latin-regular.ttf": "/final_portfolio/static/media/klee-one-v7-latin-regular.ecccf6b99793a8d3cb4b.ttf",
     "static/media/klee-one-v7-latin-regular.svg": "/final_portfolio/static/media/klee-one-v7-latin-regular.b28da8634a8dafa463c3.svg",
@@ -14,11 +14,11 @@
     "static/media/dancing-script-v24-latin-regular.eot": "/final_portfolio/static/media/dancing-script-v24-latin-regular.bf72e396040dca7eb807.eot",
     "static/media/dancing-script-v24-latin-regular.woff2": "/final_portfolio/static/media/dancing-script-v24-latin-regular.26d3e7a5932e68dd7531.woff2",
     "index.html": "/final_portfolio/index.html",
-    "main.2f15399e.css.map": "/final_portfolio/static/css/main.2f15399e.css.map",
-    "main.7ec6685f.js.map": "/final_portfolio/static/js/main.7ec6685f.js.map"
+    "main.5646fd2c.css.map": "/final_portfolio/static/css/main.5646fd2c.css.map",
+    "main.887b097c.js.map": "/final_portfolio/static/js/main.887b097c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f15399e.css",
-    "static/js/main.7ec6685f.js"
+    "static/css/main.5646fd2c.css",
+    "static/js/main.887b097c.js"
   ]
 }
